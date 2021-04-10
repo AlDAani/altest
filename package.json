@@ -1,0 +1,16 @@
+{
+  "name": "alice-workshop",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "micro",
+    "dev": "npx nodemon index.js --watch"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "micro": "^9.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
